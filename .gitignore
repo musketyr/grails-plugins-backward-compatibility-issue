@@ -1,0 +1,85 @@
+# Agorapulse
+.ap-branchNames
+.ap-commitMessages
+
+# Grails
+application-development.yml
+application-test.yml
+
+# Gradle
+build/
+.gradle/
+
+# IDEs
+
+*.c9
+*.iml
+*.ipr
+*.iws
+*.vscode
+.idea/
+.asscache
+MANIFEST.MF
+
+# PAW
+*.paw
+
+# Redis
+*.rdb
+
+# Core compiled output and dependencies
+frontend/core/dist
+frontend/core/e2e/*.js
+frontend/core/e2e/*.map
+frontend/core/tmp
+frontend/core/node_modules
+
+# Mobile compiled output and dependencies
+frontend/mobile/.tmp/
+frontend/mobile/.versions/
+frontend/mobile/dist
+frontend/mobile/e2e/*.js
+frontend/mobile/e2e/*.map
+frontend/mobile/hooks/
+frontend/mobile/node_modules
+frontend/mobile/platforms/
+frontend/mobile/plugins/
+frontend/mobile/plugins/android.json
+frontend/mobile/plugins/ios.json
+frontend/mobile/tmp
+frontend/mobile/www/
+
+# Web compiled output and dependencies
+frontend/web/dist
+frontend/web/e2e/*.js
+frontend/web/e2e/reports/*.json
+frontend/web/e2e/reports/*.html
+frontend/web/e2e/reports/**/*.png
+frontend/web/e2e/*.map
+frontend/web/tmp
+frontend/web/node_modules
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# Npm
+frontend/core/npm-debug.log
+frontend/mobile/npm-debug.log
+frontend/web/npm-debug.log
+*/**/package-lock.json
+
+
+# Yarn
+frontend/core/yarn-error.log
+frontend/mobile/yarn-error.log
+frontend/web/yarn-error.log
+
+# AOT
+**/*.ngfactory.ts
+**/*.ngsummary.json
+
+# Instagram API Tests
+backend/instagram/report.xml
+backend/instagram/report.html
+!backend/instagram/src/main/resources/config/application-test.yml
