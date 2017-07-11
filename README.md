@@ -167,3 +167,5 @@ Caused by: groovy.lang.MissingMethodException: No signature of method: static gr
 
 :app-3.2.10:bootRun FAILED
 ```
+
+If you upgrade the application to version `3.2.11` as well there is no error anymore.
